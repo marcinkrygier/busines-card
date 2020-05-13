@@ -1,0 +1,22 @@
+body{
+    background: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main{
+    background: #F8F8F8;
+    border-radius: 16.7px;
+    width:651.3px;
+    margin:16px;
+ 
+ 
+
+}
+.zdjecie{
+    width: 154.48px;
+    height: 154.48px;
+    border-radius: 50%;
+
+}
