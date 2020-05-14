@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: #2c2141;
+  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .main {
-  background: #f8f8f8;
+  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
   border-radius: 16.7px;
   width: 651.3px;
   margin: 16px;
@@ -25,9 +25,13 @@ body {
 .person__foto {
   width: 154.48px;
   height: 154.48px;
-  border-radius: 50%;
+  margin-right:33px;
+ border-radius: 50%;
 }
-.person
+.person{
+  display: flex;
+  align-items: flex-start;
+}
 .person__name{
   font-size: 37.58px;
   margin: 0;
@@ -52,10 +56,10 @@ body {
 margin-bottom: 25px;
 }
 .special{
-  color:#ED6D05;
+  color:rgb(13, 9, 230);
   font-weight: normal;
 }
 .person__link{
-  color: #E20613;
+  color: rgb(163, 10, 20);
   text-decoration:none;
 }
